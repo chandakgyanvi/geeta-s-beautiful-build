@@ -3,36 +3,49 @@ import { ArrowRight, Layers, Palette, DoorOpen, AlignHorizontalDistributeCenter,
 import { Button } from "@/components/ui/button";
 import ProductCard from "./ProductCard";
 
+import plywoodImg from "@/assets/products/plywood.jpg";
+import laminatesImg from "@/assets/products/laminates.jpg";
+import doorsImg from "@/assets/products/doors.jpg";
+import louversImg from "@/assets/products/louvers.jpg";
+import hardwareImg from "@/assets/products/hardware.jpg";
+import toolsImg from "@/assets/products/tools.jpg";
+
 const products = [
   {
     title: "Plywood",
     description: "High-quality plywood for furniture, interiors, and construction. Available in various grades and thicknesses.",
     icon: Layers,
+    imageUrl: plywoodImg,
   },
   {
     title: "Laminates",
     description: "Beautiful decorative laminates in hundreds of designs, colors, and textures for stunning surfaces.",
     icon: Palette,
+    imageUrl: laminatesImg,
   },
   {
     title: "Doors",
     description: "Elegant wooden and flush doors for residential and commercial spaces. Durable and stylish.",
     icon: DoorOpen,
+    imageUrl: doorsImg,
   },
   {
     title: "Louvers",
     description: "Modern louver panels for ventilation and aesthetics. Perfect for ceilings and partitions.",
     icon: AlignHorizontalDistributeCenter,
+    imageUrl: louversImg,
   },
   {
     title: "Hardware Fittings",
     description: "Complete range of hardware including hinges, handles, locks, and accessories for your projects.",
     icon: Wrench,
+    imageUrl: hardwareImg,
   },
   {
     title: "More Products",
     description: "Explore our complete range of building and interior materials. Visit us to see our full collection.",
     icon: Grid3X3,
+    imageUrl: toolsImg,
   },
 ];
 
@@ -64,6 +77,7 @@ const ProductsPreview = () => {
               title={product.title}
               description={product.description}
               icon={product.icon}
+              imageUrl={product.imageUrl}
             />
           ))}
         </div>
