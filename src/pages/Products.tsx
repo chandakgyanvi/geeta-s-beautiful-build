@@ -6,7 +6,7 @@ import { Layers, Palette, DoorOpen, AlignHorizontalDistributeCenter, Wrench, Ham
 
 import plywoodImg from "@/assets/products/plywood.jpg";
 import laminatesImg from "@/assets/products/laminates.jpg";
-import doorsImg from "@/assets/products/doors.jpg";
+import doorHandlesImg from "@/assets/products/door-handles.jpg";
 import louversImg from "@/assets/products/louvers.jpg";
 import hardwareImg from "@/assets/products/hardware.jpg";
 import toolsImg from "@/assets/products/tools.jpg";
@@ -27,10 +27,10 @@ const products = [
     imageUrl: laminatesImg,
   },
   {
-    title: "Doors",
-    description: "Quality wooden doors, flush doors, and designer doors for homes and offices. Available in various sizes, designs, and wood types to match your interior style.",
+    title: "Door Handles",
+    description: "Premium door handles and knobs in chrome, brass, and gold finishes. Wide selection of modern and classic styles to complement any interior.",
     icon: DoorOpen,
-    imageUrl: doorsImg,
+    imageUrl: doorHandlesImg,
   },
   {
     title: "Louvers",
