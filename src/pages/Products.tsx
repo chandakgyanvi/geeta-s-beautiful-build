@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import ProductCard from "@/components/ProductCard";
-import { Layers, Palette, DoorOpen, AlignHorizontalDistributeCenter, Wrench, Hammer, PanelTop, Square } from "lucide-react";
+import { Layers, Palette, DoorOpen, AlignHorizontalDistributeCenter, Wrench, Hammer, PanelTop, Square, Droplets, Sparkles } from "lucide-react";
 
 import plywoodImg from "@/assets/products/plywood.jpg";
 import laminatesImg from "@/assets/products/laminates.jpg";
@@ -12,6 +12,8 @@ import hardwareImg from "@/assets/products/hardware.jpg";
 import toolsImg from "@/assets/products/tools.jpg";
 import veneersImg from "@/assets/products/veneers.jpg";
 import mdfImg from "@/assets/products/mdf.jpg";
+import adhesivesImg from "@/assets/products/adhesives.jpg";
+import decorativeImg from "@/assets/products/decorative.jpg";
 
 const products = [
   {
@@ -61,6 +63,18 @@ const products = [
     description: "High-quality block boards and MDF sheets for furniture making. Ideal for wardrobes, cabinets, and modular furniture construction.",
     icon: Square,
     imageUrl: mdfImg,
+  },
+  {
+    title: "Adhesives",
+    description: "Premium wood adhesives, Fevicol, construction glues, and bonding solutions. Strong and reliable adhesives for all woodworking projects.",
+    icon: Droplets,
+    imageUrl: adhesivesImg,
+  },
+  {
+    title: "Decorative Items",
+    description: "Beautiful decorative pieces for home interiors. Photo frames, wall art, mirrors, and ornamental items to enhance your living spaces.",
+    icon: Sparkles,
+    imageUrl: decorativeImg,
   },
 ];
 
