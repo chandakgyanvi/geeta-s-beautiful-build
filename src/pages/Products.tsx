@@ -4,46 +4,63 @@ import FloatingButtons from "@/components/FloatingButtons";
 import ProductCard from "@/components/ProductCard";
 import { Layers, Palette, DoorOpen, AlignHorizontalDistributeCenter, Wrench, Hammer, PanelTop, Square } from "lucide-react";
 
+import plywoodImg from "@/assets/products/plywood.jpg";
+import laminatesImg from "@/assets/products/laminates.jpg";
+import doorsImg from "@/assets/products/doors.jpg";
+import louversImg from "@/assets/products/louvers.jpg";
+import hardwareImg from "@/assets/products/hardware.jpg";
+import toolsImg from "@/assets/products/tools.jpg";
+import veneersImg from "@/assets/products/veneers.jpg";
+import mdfImg from "@/assets/products/mdf.jpg";
+
 const products = [
   {
     title: "Plywood",
     description: "Premium quality plywood in various grades including BWR, BWP, MR grade, and commercial plywood. Available in multiple thicknesses from 4mm to 25mm for all your furniture and construction needs.",
     icon: Layers,
+    imageUrl: plywoodImg,
   },
   {
     title: "Laminates",
     description: "Extensive collection of decorative laminates featuring hundreds of designs, textures, and finishes. From wood grains to solid colors, matte to glossy — transform any surface beautifully.",
     icon: Palette,
+    imageUrl: laminatesImg,
   },
   {
     title: "Doors",
     description: "Quality wooden doors, flush doors, and designer doors for homes and offices. Available in various sizes, designs, and wood types to match your interior style.",
     icon: DoorOpen,
+    imageUrl: doorsImg,
   },
   {
     title: "Louvers",
     description: "Modern louver panels for elegant ceiling designs, wall cladding, and partitions. Enhance ventilation while adding a contemporary touch to your spaces.",
     icon: AlignHorizontalDistributeCenter,
+    imageUrl: louversImg,
   },
   {
     title: "Hardware Fittings",
     description: "Complete range of hardware including door handles, hinges, locks, drawer channels, kitchen fittings, and cabinet accessories from trusted brands.",
     icon: Wrench,
+    imageUrl: hardwareImg,
   },
   {
     title: "Tools & Accessories",
     description: "Essential tools and accessories for woodworking and installation. Screws, nails, adhesives, and more for your DIY and professional projects.",
     icon: Hammer,
+    imageUrl: toolsImg,
   },
   {
     title: "Veneers & Panels",
     description: "Natural wood veneers and decorative panels for premium furniture finishing. Create stunning wood textures on any surface.",
     icon: PanelTop,
+    imageUrl: veneersImg,
   },
   {
     title: "Block Boards & MDF",
     description: "High-quality block boards and MDF sheets for furniture making. Ideal for wardrobes, cabinets, and modular furniture construction.",
     icon: Square,
+    imageUrl: mdfImg,
   },
 ];
 
@@ -76,6 +93,7 @@ const Products = () => {
                   title={product.title}
                   description={product.description}
                   icon={product.icon}
+                  imageUrl={product.imageUrl}
                 />
               ))}
             </div>
