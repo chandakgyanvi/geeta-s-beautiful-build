@@ -5,7 +5,7 @@ import ProductCard from "./ProductCard";
 
 import plywoodImg from "@/assets/products/plywood.jpg";
 import laminatesImg from "@/assets/products/laminates.jpg";
-import doorsImg from "@/assets/products/doors.jpg";
+import doorHandlesImg from "@/assets/products/door-handles.jpg";
 import louversImg from "@/assets/products/louvers.jpg";
 import hardwareImg from "@/assets/products/hardware.jpg";
 import toolsImg from "@/assets/products/tools.jpg";
@@ -24,10 +24,10 @@ const products = [
     imageUrl: laminatesImg,
   },
   {
-    title: "Doors",
-    description: "Elegant wooden and flush doors for residential and commercial spaces. Durable and stylish.",
+    title: "Door Handles",
+    description: "Premium door handles and knobs in chrome, brass, and gold finishes. Modern and classic styles.",
     icon: DoorOpen,
-    imageUrl: doorsImg,
+    imageUrl: doorHandlesImg,
   },
   {
     title: "Louvers",
